@@ -102,12 +102,17 @@ form {
 
 #features > div {
     display: flex;
-    padding: 40px;
-    column-gap: 80px;
+    padding: 35px;
+    column-gap: 50px;
 }
 
-.icon {
-    width: 60px;
+.features--icon {
+    width: 10%;
+    text-align: center;
+}
+
+.features--text {
+    width: 84%;
 }
 
 /* HOW IT WORKS SECTION */
