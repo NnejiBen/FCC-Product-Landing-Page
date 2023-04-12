@@ -199,3 +199,45 @@ footer > ul > a {
     color: #444;
     font-size: 0.8rem;
 }
+
+/* RESPONSIVE MODE */
+
+@media (max-width: 768px) {
+    #header {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    #logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nav-bar ul {
+        width: 100%;
+        margin-bottom: 16px;
+        column-gap: 16px;
+    }
+
+    #features {
+        width: 100%;
+    }
+
+    #pricing {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    #pricing > div {
+        width: 60%;
+    }
+
+    footer {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
