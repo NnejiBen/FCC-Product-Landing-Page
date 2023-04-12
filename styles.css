@@ -51,7 +51,7 @@ body {
     object-fit: contain;
     width: 100%;
     height: 100%;
-    max-width: 300px;
+    max-width: 36%;
 }
 
 /* HERO SECTION */
@@ -74,15 +74,14 @@ form {
 
 #hero form input[class=email] {
     display: block;
-    width: 275px;
+    width: 20%;
     padding: 5px;
     margin-bottom: 16px;
 }
 
 .btn {
-    width: 150px;
+    width: 11%;
     height: 30px;
-    /* margin: 15px 0; */
     border: 0;
     background-color: #f1c40f;
     margin-bottom: 80px;
@@ -171,6 +170,8 @@ button {
     cursor: pointer;
 }
 
+/* FOOTER SECTION */
+
 footer {
     display: flex;
     flex-direction: column;
@@ -203,6 +204,9 @@ footer > ul > a {
 /* RESPONSIVE MODE */
 
 @media (max-width: 768px) {
+   
+    /* NAVBAR SECTION */
+   
     #header {
         display: flex;
         flex-direction: column;  
@@ -216,6 +220,11 @@ footer > ul > a {
         margin-top: 16px;
     }
 
+    #header-img {
+        margin-left: -8px;
+        margin-bottom: 8px;
+    }
+
     #nav-bar ul li a {
         font-size: 1rem;
     }
@@ -226,9 +235,21 @@ footer > ul > a {
         column-gap: 16px;
     }
 
+    /* HERO SECTION */
+
+    #hero {
+        margin-top: 100px;
+    }
+
+    /* FEATURES SECTION */
+
     #features {
         width: 100%;
     }
+
+    /* HOW IT WORKS SECTION */
+
+    /* PRICING SECTION */
 
     #pricing {
         display: flex;
@@ -239,6 +260,8 @@ footer > ul > a {
     #pricing > div {
         width: 60%;
     }
+
+    /* FOOTER SECTION */
 
     footer {
         align-items: center;
