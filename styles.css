@@ -221,8 +221,9 @@ footer > ul > a {
     }
 
     #header-img {
-        margin-left: -8px;
+        margin-left: -16px;
         margin-bottom: 8px;
+        max-width: 50%;
     }
 
     #nav-bar ul li a {
@@ -241,10 +242,23 @@ footer > ul > a {
         margin-top: 100px;
     }
 
+    #hero form input[class=email] {
+        width: 40%;
+    }
+    
+    .btn {
+        width: 25%;
+        margin-bottom: 40px;
+    }
+
     /* FEATURES SECTION */
 
     #features {
         width: 100%;
+    }
+
+    #features > div {
+        padding: 25px;
     }
 
     /* HOW IT WORKS SECTION */
