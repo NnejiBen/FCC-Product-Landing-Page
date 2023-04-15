@@ -75,7 +75,7 @@ form {
 #hero form input[class=email] {
     display: block;
     width: 20%;
-    padding: 5px;
+    padding: 10px 5px;
     margin-bottom: 16px;
 }
 
