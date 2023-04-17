@@ -222,7 +222,7 @@ footer > ul > a {
     }
 
     #header-img {
-        margin-left: -16px;
+        margin-left: 0;
         margin-bottom: 8px;
         max-width: 90%;
     }
