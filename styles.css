@@ -205,10 +205,15 @@ footer > ul > a {
 @media (max-width: 768px) {
    
     /* NAVBAR SECTION */
-   
+
     #header {
-        display: flex;
+        width: 100%;
+        margin: 0 0 16px 0;
         flex-direction: column;  
+    }
+
+    #nav-bar {
+        width: 100vw;
     }
 
     #logo {
